@@ -1,0 +1,47 @@
+{
+  "name": "dsh-desktop-pet",
+  "version": "0.3.0",
+  "description": "A transparent always-on-top desktop pet for DSH: live session status, token budget, account balance, quick chat, and a draggable animated companion.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Chamfer-dev",
+  "homepage": "https://github.com/Chamfer-dev/dsh-pet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chamfer-dev/dsh-pet.git"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "desktop-pet",
+    "electron",
+    "桌宠"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "window/**",
+    "tools/**",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "electron": "^44.7.0",
+    "koffi": "^3.3.6"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
