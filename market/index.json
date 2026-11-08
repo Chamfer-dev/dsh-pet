@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Desktop Pet",
+    "zh-cn": "DSH 桌宠"
+  },
+  "description": {
+    "en": "A transparent always-on-top desktop pet for DSH with live session status, token balance, and quick chat.",
+    "zh-cn": "浮在桌面上的 DSH 桌宠：实时会话状态、Token 余额、账户余额和快速对话。"
+  },
+  "metadata": {
+    "categories": {
+      "desktop": {
+        "title": {
+          "en": "Desktop",
+          "zh-cn": "桌面"
+        }
+      }
+    },
+    "labels": {
+      "windows": {
+        "title": {
+          "en": "Windows",
+          "zh-cn": "Windows"
+        }
+      },
+      "pet": {
+        "title": {
+          "en": "Pet",
+          "zh-cn": "桌宠"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-desktop-pet",
+      "title": {
+        "en": "DSH Desktop Pet",
+        "zh-cn": "DSH 桌宠"
+      },
+      "description": {
+        "en": "A transparent, always-on-top companion that stays on the desktop while DSH runs in the background. Left click for a 3-second panel, right click to pick the panel mode, drag to move. Panels: live session status, account balance plus context/token usage, and quick chat.",
+        "zh-cn": "一只浮在桌面上的桌宠：DSH 在后台时它仍留在桌面上。左键压扁并唤出 3 秒面板，右键选择面板模式，按住可拖动。面板包含工作状态、账户余额与上下文/Token 用量、快速对话。"
+      },
+      "icon": "../icon.svg",
+      "author": "Chamfer-dev",
+      "homepage": "https://github.com/Chamfer-dev/dsh-pet",
+      "repository": {
+        "url": "https://github.com/Chamfer-dev/dsh-pet"
+      },
+      "metadata": {
+        "category": "desktop",
+        "keywords": [
+          "桌宠",
+          "桌面宠物",
+          "desktop pet",
+          "pet",
+          "electron",
+          "token balance",
+          "余额"
+        ],
+        "labels": [
+          "windows",
+          "pet"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.3.0",
+          "publishTimestamp": 1794142644,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Chamfer-dev/dsh-pet",
+            "commit": "0000000000000000000000000000000000000000"
+          },
+          "engines": {
+            "dsh": ">=0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "dsh-pet-window",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Transparent always-on-top pet window for dsh-pet",
+  "main": "main.js"
+}
