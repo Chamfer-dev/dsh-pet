@@ -72,7 +72,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/Chamfer-dev/dsh-pet",
-            "commit": "0000000000000000000000000000000000000000"
+            "commit": "a2856ea8ad5092d281f8c4ad6d3c6ae18bb92fe7"
           },
           "engines": {
             "dsh": ">=0.2.0"
